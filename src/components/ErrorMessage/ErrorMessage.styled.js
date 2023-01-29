@@ -7,3 +7,8 @@ export const ErrorNote = styled.p`
 
   text-align: center;
 `;
+
+export const ErrorImage = styled.img`
+  width: 800px;
+  margin: 0 auto;
+`;

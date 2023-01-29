@@ -15,5 +15,6 @@ export async function fetchImages(searchQuery, pageNumber) {
       per_page: 12,
     },
   });
+  console.log(resp);
   return resp.data;
 }
